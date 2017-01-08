@@ -1,0 +1,117 @@
+<Project>
+  <Name>Adventure Capitalist</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>UML</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>_Manager</Name>
+        <Access>Public</Access>
+        <Location left="1136" top="110" />
+        <Size width="162" height="128" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string uiText</Member>
+        <Member type="Field">int curMoney</Member>
+        <Member type="Field">int investmentGoal</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>theInvestment</Name>
+        <Access>Public</Access>
+        <Location left="1377" top="242" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string Name</Member>
+        <Member type="Field">Class OnClick</Member>
+        <Member type="Field">int price</Member>
+        <Member type="Field">int multiplePrice</Member>
+        <Member type="Field">int curInvestment</Member>
+        <Member type="Field">IEnumerator WaitTime</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>theInvestmentTwo</Name>
+        <Access>Public</Access>
+        <Location left="887" top="242" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Class OnClick</Member>
+        <Member type="Field">int price</Member>
+        <Member type="Field">int curInvestment</Member>
+        <Member type="Field">array otherInvestments</Member>
+        <Member type="Field">IEnumerator waitTime</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Upgrades</Name>
+        <Access>Public</Access>
+        <Location left="1136" top="545" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">list availableUpgrades</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>UpgradeButton</Name>
+        <Access>Public</Access>
+        <Location left="1407" top="831" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">Class OnClick</Member>
+        <Member type="Field">int multiplier</Member>
+        <Member type="Field">int speedUpgrade</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="1" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1252</X>
+          <Y>85</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="2" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>967</X>
+          <Y>217</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1186</X>
+          <Y>85</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="3" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+      <Relationship type="Association" first="4" second="3">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1340</X>
+          <Y>607</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>
